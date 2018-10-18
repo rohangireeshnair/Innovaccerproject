@@ -1,9 +1,9 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-username = "showsreminderinnovaccer"
-password = "innovaccer1@"
-fromemail = "showsreminderinnovaccer@gmail.com"
+username = "@@@@@@"
+password = "@@@@@@"
+fromemail = "@@@@@@@@@@@"
 
 def sendemail(email, msg1):
     smtpserver = smtplib.SMTP('smtp.gmail.com', 587)
